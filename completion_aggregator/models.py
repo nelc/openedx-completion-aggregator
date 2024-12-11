@@ -190,12 +190,13 @@ class AggregatorManager(models.Manager):
             return
 
         for aggregator in updated_aggregators:
+            event = "progress" if aggregator.percent < 1 else "completion"
             block_type = aggregator.aggregation_name
 
             if block_type not in settings.COMPLETION_AGGREGATOR_TRACKING_EVENT_TYPES:
                 continue
 
-            event_name = f"openedx.completion_aggregator.progress.{block_type}"
+            event_name = f"openedx.completion_aggregator.{event}.{block_type}"
 
             tracker.emit(
                 event_name,
