@@ -43,8 +43,8 @@
    },
    "result":{
       "completion":false,
-      "extensions": {
-        "https://w3id.org/xapi/cmi5/result/extensions/progress":50
+      "score": {
+        "scaled": 0.5
       }
    },
    "timestamp":"2023-12-05T21:34:52.909063+00:00"

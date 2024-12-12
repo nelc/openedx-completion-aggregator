@@ -6,7 +6,7 @@
          "homePage": "http://localhost:18000"
       }
    },
-   "id":"146d5372-1d64-54b1-8c60-b4acaad3c976",
+   "id":"484fe8d7-7a5b-52ff-a0ab-3d3d8c1a8b27",
    "object":{
       "id":"http://localhost:18000/xblock/block-v1:edX+DemoX+Demo_Course+type@sequential+block@bf1eac10ebb649e3aaf9cc07325f8e04",
       "definition":{
@@ -15,9 +15,9 @@
       "objectType":"Activity"
    },
    "verb":{
-      "id":"http://adlnet.gov/expapi/verbs/progressed",
+      "id":"http://adlnet.gov/expapi/verbs/completed",
       "display":{
-         "en":"progressed"
+         "en":"completed"
       }
    },
    "version":"1.0.3",
@@ -39,12 +39,6 @@
       "extensions":{
          "https://w3id.org/xapi/openedx/extension/transformer-version":"event-routing-backends@1.1.1",
          "https://w3id.org/xapi/openedx/extensions/session-id":"056aca2a1c6b76742b283e73d3424453"
-      }
-   },
-   "result":{
-      "completion":false,
-      "score": {
-        "scaled": 0.6
       }
    },
    "timestamp":"2023-12-05T21:34:52.909063+00:00"
