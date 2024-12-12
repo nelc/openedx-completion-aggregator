@@ -16,3 +16,6 @@
 #  https://github.com/openedx/completion/blob/v4.2.0/completion/__init__.py#L7
 pytest<6.0.0
 pluggy<1.0.0
+
+# Use same version as redwood
+django-oauth-toolkit==1.7.1
